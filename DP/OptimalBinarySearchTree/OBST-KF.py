@@ -10,7 +10,7 @@ def main(KF):
             for k in range(i, j+1):
                 q = DP[i][k-1] + DP[k][j] + W
                 if q < DP[i][j]:
-                    DP[i][j] = q
+                    DP[i][j] = q 
                     
     print(DP)
     print("Optimal Binary Search Tree Cost : ", DP[0][N-1])
