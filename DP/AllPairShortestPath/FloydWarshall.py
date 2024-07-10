@@ -1,7 +1,7 @@
 from math import inf
 I = (inf)
 
-
+ 
 def main(A0):
     
     print("Graph :- ")
