@@ -1,24 +1,3 @@
-# def main(Graph):
-    
-#     def TSP(S, V):
-#         if V ==  None:
-#             return Graph[S][0]
-#         Min = []
-#         # for k in V:
-#         #     V_copy.remove(k)
-#         #     Min.append(TSP(k, V_copy) + Graph[S][k])
-#         for i in range(1, len(V)):
-#             k = V[i]  # Access element using index
-#             Min.append(TSP(k, V[:i] + V[i+1:]) + Graph[S][k])    
-#             print(V)
-#         print(Min)
-#         return min(Min) 
-    
-    
-#     V = [i for i in range(1, len(Graph))]
-#     Answer = TSP(0, V)
-#     print(Answer)    
-#     print()
 def main(Graph):
 
     def TSP(S, V):
