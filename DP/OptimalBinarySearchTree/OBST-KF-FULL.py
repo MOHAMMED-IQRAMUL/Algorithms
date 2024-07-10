@@ -8,7 +8,7 @@ def main(KF):
             W = sum(key[1] for key in KF[i:j])  
             DP[i][j] = 0 if i == j else 32767
             for k in range(i, j+1):
-                q = DP[i][k-1] + DP[k][j] + W
+                q = DP[i][k-1] + DP[k][j] + W 
                 if q < DP[i][j]:
                     DP[i][j] = q
                     ROOT[i][j] = k
