@@ -5,7 +5,7 @@ def main(PW, M):
     
     for i in range(1, N+1):
         for w in range(M+1):
-            j = w-PW[i-1][1]
+            j = w-PW[i-1][1] 
             if j >= 0 :
                 DP[i][w] = max(DP[i-1][w], (DP[i-1][j]+PW[i-1][0]))
             else:
