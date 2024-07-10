@@ -11,7 +11,7 @@ def main(graph, source):
     for u in graph:
         for v, weight in graph[u].items():
             if distances[u] + weight < distances[v]:
-                print("Graph contains negative weight cycle")
+                print("Graph contains negative weight cycle") 
                 break
 
     for vertex, distance in distances.items():
