@@ -3,7 +3,7 @@
 This repository contains implementations of various Dynamic Programming (DP) algorithms. 
 Each algorithm is organized into its own directory, and each directory includes Python scripts related to that specific algorithm.
 
-## Table of Contents
+## Table of Contents 
 
 1. [All-Pairs Shortest Path](#all-pairs-shortest-path)
 2. [Floyd-Warshall Algorithm](#floyd-warshall-algorithm)
