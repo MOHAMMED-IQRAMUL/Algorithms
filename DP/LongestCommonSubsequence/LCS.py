@@ -1,7 +1,7 @@
 def main(S1, S2):
     
     M = len(S1)
-    N = len(S2)
+    N = len(S2) 
     
     DP = [[0 for _ in range(N+1)] for _ in range(M+1)]
     
