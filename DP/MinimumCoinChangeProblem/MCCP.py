@@ -8,7 +8,7 @@ def main(Coins, W):
     for i in range(1, N):
         for j in range(1, W + 1):
             if j >= Coins[i]:
-                DP[i][j] = min(DP[i-1][j], DP[i][j - Coins[i]] +1 ) 
+                DP[i][j] = min(DP[i-1][j], DP[i][j - Coins[i]] +1 )  
             else:
                 DP[i][j] = DP[i-1][j]
 
