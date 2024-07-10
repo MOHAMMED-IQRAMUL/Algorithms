@@ -3,7 +3,6 @@ def main():
     min = 32767
     n = int(input("Enter No of Vertices "))
     cost, d, path = [0] * (n+1), [0] * (n+1), [0] * (Stages+1)
-    # c = [input(f"Enter {n+1} X {n+1} Graph matrix ")]
     c = [
         [0,0,0,0,0,0,0,0,0,0,0,0,0],
         [0,0,9,7,3,2,0,0,0,0,0,0,0],
