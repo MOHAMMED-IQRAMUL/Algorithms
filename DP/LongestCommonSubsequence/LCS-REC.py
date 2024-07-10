@@ -5,7 +5,7 @@ def main(S1, S2):
         elif S1[i] == S2[j]:
             return 1 + LCS(i+1, j+1)
         else:
-            return max(LCS(i+1, j), LCS(i, j+1))
+            return max(LCS(i+1, j), LCS(i, j+1)) 
         
     ANS = LCS(0, 0)
     print("Length Of Longest Common Sub-Sequence is : ", ANS)
