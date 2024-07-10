@@ -6,7 +6,7 @@ def main(Data):
     S = [[0]*n for _e in range(n)] #Store K values
     
     for d in range(1, n-1):
-        for i in range(1, n-d):
+        for i in range(1, n-d): 
             j = i+d
             min = 32767
             for k in range(i, j):
