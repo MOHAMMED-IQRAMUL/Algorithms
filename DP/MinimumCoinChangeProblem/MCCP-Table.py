@@ -6,7 +6,7 @@ def minCoins(coins, m, V):
 	for i in range(1, V + 1):
 		table[i] = 32767
 
-	for i in range(1, V + 1):
+	for i in range(1, V + 1): 
 		for j in range(m):
 			if (coins[j] <= i):
 				sub_res = table[i - coins[j]]
