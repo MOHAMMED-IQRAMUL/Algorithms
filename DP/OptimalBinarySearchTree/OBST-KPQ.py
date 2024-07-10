@@ -6,7 +6,7 @@ def main(Key, Pi, Qi):
     R  = [[0 for _ in range(N)] for _ in range(N)]
     
     for S in range(0, N):
-        for i in range(0, N-S):
+        for i in range(0, N-S): 
             j = i+S
             if i == j :
                 DP[i][j] = 0
