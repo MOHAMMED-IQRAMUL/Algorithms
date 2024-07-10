@@ -37,21 +37,6 @@ def print_knapsack(DP, OWP, M):
         i -= 1
     print()
 
-# def main1():
-#     OWP = [[1, 2, 1], [2, 3, 2], [3, 4, 5], [4, 5, 6]]
-#     M = 8
-#     print(knapsack(OWP, M))
-# main1()
-
-# def main2():
-#     OWP = [[1, 1, 10], [2, 2, 12], [3, 2, 15], [4, 3, 20]]
-#     M = 5
-#     # print(knapsack(OWP, M))
-#     print("Objects : Weight : Profit : ", OWP) 
-#     print("Maximum Weight : ", M)
-#     print("Maximum Profit : ", knapsack(OWP, M))
-# main2()
-
 
 def main2():
     OWP = [[1, 100, 500], [2, 50, 200], [3, 20, 20], [4, 10, 60], [5, 7, 84], [6, 3, 45]]
